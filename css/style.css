@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.header {
+    background-color: aquamarine;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+    background-color: yellow;
+}
+
+.lista-header {
+    list-style-type: none;
+}
