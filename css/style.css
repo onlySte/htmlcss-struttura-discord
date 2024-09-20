@@ -26,14 +26,13 @@
 
 .logo-header {
     border: 1px solid black;
-
+    width: 20%;
 }
 
 .lista-header {
     list-style-type: none;
     flex-grow: 1;
     border: 1px solid black;
-
     display: flex;
     justify-content: center;
 }
@@ -45,5 +44,5 @@
 
 .login-header {
     border: 1px solid black;
-
+    width: 20%;
 }
