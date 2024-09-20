@@ -4,16 +4,22 @@
     padding: 0;
 }
 
-/* Header */
-
-.header {
-    background-color: #a6e3ff;
-    padding: 20px 0;
-
-
+.debug section {
+    height: 250px;
 }
 
-.container-figli-header {
+.debug .section-5 {
+    height: 500px;
+}
+
+/* Header */
+
+.debug .header {
+    background-color: #a6e3ff;
+    padding: 20px 0;
+}
+
+.debug .container-figli-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,4 +52,90 @@
     border: 1px solid black;
     width: 20%;
     text-align: right
+}
+
+/* Main */
+
+.main {}
+
+.main>section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-1 {
+    background-color: blue;
+
+}
+
+.section-2 {
+    background-color: white;
+
+}
+
+.section-3 {
+    background-color: gray;
+}
+
+.section-4 {
+    background-color: white;
+}
+
+.section-5 {
+    background-color: gray;
+
+}
+
+/* figli section */
+
+.section-1>div {
+    background-color: rgb(255, 137, 157);
+    height: 80%;
+    width: 50%;
+}
+
+.section-2>div:first-child {
+    height: 80%;
+    width: 40%;
+    background-color: rgb(16, 195, 255);
+}
+
+.section-2>div:last-child {
+    height: 80%;
+    width: 20%;
+    background-color: pink;
+}
+
+.section-3>div:first-child {
+    height: 80%;
+    width: 20%;
+    background-color: pink;
+}
+
+
+.section-3>div:last-child {
+    height: 80%;
+    width: 40%;
+    background-color: rgb(16, 195, 255);
+
+}
+
+.section-4>div:first-child {
+    height: 80%;
+    width: 40%;
+    background-color: rgb(16, 195, 255);
+}
+
+.section-4>div:last-child {
+    height: 80%;
+    width: 20%;
+    background-color: pink;
+}
+
+.section-5>div {
+    height: 85%;
+    width: 60%;
+    background-color: green;
 }
