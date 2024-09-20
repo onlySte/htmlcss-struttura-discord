@@ -12,6 +12,10 @@
     height: 500px;
 }
 
+.debug footer {
+    height: 350px;
+}
+
 /* Header */
 
 .debug .header {
@@ -56,7 +60,7 @@
 
 /* Main */
 
-.main {}
+
 
 .main>section {
     display: flex;
@@ -92,50 +96,80 @@
 
 .section-1>div {
     background-color: rgb(255, 137, 157);
-    height: 80%;
-    width: 50%;
+    height: 200px;
+    width: 500px;
 }
 
 .section-2>div:first-child {
-    height: 80%;
-    width: 40%;
+    height: 200px;
+    width: 400px;
     background-color: rgb(16, 195, 255);
 }
 
 .section-2>div:last-child {
-    height: 80%;
-    width: 20%;
+    height: 200px;
+    width: 200px;
     background-color: pink;
 }
 
 .section-3>div:first-child {
-    height: 80%;
-    width: 20%;
+    height: 200px;
+    width: 400px;
     background-color: pink;
 }
 
 
 .section-3>div:last-child {
-    height: 80%;
-    width: 40%;
+    height: 200px;
+    width: 200px;
     background-color: rgb(16, 195, 255);
 
 }
 
 .section-4>div:first-child {
-    height: 80%;
-    width: 40%;
+    height: 200px;
+    width: 400px;
     background-color: rgb(16, 195, 255);
 }
 
 .section-4>div:last-child {
-    height: 80%;
-    width: 20%;
+    height: 200px;
+    width: 200px;
     background-color: pink;
 }
 
 .section-5>div {
-    height: 85%;
-    width: 60%;
+    height: 450px;
+    width: 600px;
     background-color: green;
 }
+
+/* Footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.818);
+}
+
+footer>.footer-section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+footer>section>.square-pink {
+    height: 230px;
+    width: 200px;
+    background-color: pink;
+
+}
+
+footer>section>.square-cyan {
+    height: 230px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid white;
+}
+
+section>.footer-section-2 {}
