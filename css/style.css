@@ -92,7 +92,7 @@
 
 }
 
-/* figli section */
+/* figli section main */
 
 .section-1>div {
     background-color: rgb(255, 137, 157);
@@ -148,9 +148,10 @@
 
 footer {
     background-color: rgba(0, 0, 0, 0.818);
+
 }
 
-footer>.footer-section-1 {
+.footer-div-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,22 +159,74 @@ footer>.footer-section-1 {
 }
 
 
-footer>section>.square-pink {
-    height: 230px;
+.footer-div-1>.square-pink {
+    height: 240px;
     width: 200px;
     background-color: pink;
+    margin-top: 10px;
 
 }
 
-footer>section>.square-cyan {
-    height: 230px;
+.footer-div-1>.square-cyan {
+    height: 240px;
     width: 100px;
-    background-color: aquamarine;
+    background-color: rgb(30 161 130);
     border: 1px solid white;
+    margin-top: 10px;
+
 }
 
-section>.footer-section-2 {
+/* footer>section.footer-section-2 {
     display: flex;
-    justify-content: center;
-    align-self: center;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 600px;
+    height: 30px;
+    margin: auto;
+    background-color: #a6e3ff;
+}
+
+footer>.footer-section-2>div {
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    background-color: pink;
+}
+
+.footer-logo {
+
+    text-align: center;
+}
+
+.footer-bottone {
+
+    text-align: center;
+} */
+
+
+.footer-logo,
+.footer-bottone {
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+}
+
+.div-footer {
+    display: inline-block;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    background-color: #bcf1df;
+    height: 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.line {
+    border: 1px solid #9e9e9e;
+    width: 600px;
+    margin: auto;
+    margin-top: 38px;
 }
