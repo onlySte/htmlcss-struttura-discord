@@ -7,17 +7,43 @@
 /* Header */
 
 .header {
-    background-color: aquamarine;
+    background-color: #a6e3ff;
+    padding: 20px 0;
+
+
 }
 
 .container-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     max-width: 900px;
     background-color: yellow;
+    margin: auto;
+    line-height: 25px;
+
+}
+
+.logo-header {
+    border: 1px solid black;
+
 }
 
 .lista-header {
     list-style-type: none;
+    flex-grow: 1;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+}
+
+.link-item {
+    display: inline-block;
+
+}
+
+.login-header {
+    border: 1px solid black;
+
 }
